@@ -1,0 +1,158 @@
+/**********************************************
+=                    portrait                  =
+**********************************************/
+@media only screen and (max-width: 767px) {
+  header{
+    padding: 17px 30px 17px 52px;
+  }
+
+  #intro{
+    padding: 50px 0;
+  }
+
+  .intro-list-img{
+    display: block;
+    margin: 8px 0 32px 0;
+    cursor: pointer;
+    width: 60px;
+  }
+  .intro-list-text{
+    display: none;
+  }
+  .intro-list-btn{
+    margin-bottom: 52px;
+  }
+
+  #promo{
+    padding: 40px 30px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #promo-strong-text{
+    margin-bottom: 10px;
+  }
+  #promo-text-container{
+    margin-bottom: 40px;
+  }
+
+  #services{
+    padding: 24px 20px 40px 20px;
+    text-align: center;
+  }
+  #services-container{
+    margin:0 0 40px 0;
+    align-items: center;
+  }
+  #services-dark-text{
+    margin: 12px 0 30px 0;
+  }
+  #services-line{
+    margin-bottom: 30px;
+
+  }
+   .services-list-item{
+    width: calc(50vw-40px);
+   }
+
+
+
+  #recent-work{
+    padding: 40px;
+  }
+
+  #recent-work-line{
+    margin: 20px 0 40px 0;
+  }
+
+  .recent-work-list{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .recent-work-img{
+    width: 80vw;
+    height: auto;
+  }
+  .recent-work-mask{
+    top: 45%;
+    width: 70vw;
+    height: 80%;
+  }
+
+  #video-block{
+    padding: 40px 60px 52px 60px;
+    flex-direction: column;
+    align-items: center;
+  }
+  #video-block-img{
+    width: 100%;
+  }
+  #video-block-container{
+    align-items: center;
+    margin-left: 0;
+  }
+  #video-block-title{
+    margin: 40px 0 20px 0;
+  }
+  #video-block-line{
+    width: 88px;
+    height: auto;
+    margin: 0;
+  }
+  #video-block-text{
+    text-align: center;
+  }
+
+  #latest-news{
+    padding: 40px 32px;
+  }
+  #latest-news-title{
+    font-size: 48px;
+  }
+  #latest-news-line{
+    margin: 20px 0 60px 0;
+  }
+  
+  #testimonial{
+    padding: 60px 20px 40px 20px;
+  }
+
+  .review{
+    margin: 40px auto;
+    max-width: 80%;
+  }
+
+  #footer{
+    padding: 0 40px;
+  }
+  #footer-logo-container{
+    margin: 0 -40px;
+  }
+  #footer-text{
+    font-size: 24px;
+    margin: 60px 0 40px 0;
+  }
+  #social-media-icons-list{
+    display: flex;
+    margin: 40px 0;
+  }
+  .media-list-items{
+    margin: 0 0 16px 0;
+    padding:  20px auto;
+    width: 25%;
+  }
+  .media-links>img{
+    width: 24px;
+    height: 24px;
+  }
+  .contacts-container, .adress-container, .help-container, .menu-container{
+    margin: 0 0 28px 0;
+  }
+
+  .footer-btn-scrol-container{
+    margin: 0 -40px;
+    padding: 0 4px 0 0;
+  }
+}
