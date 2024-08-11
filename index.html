@@ -1,10 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+
+  <meta property="og:title" content="Di Gі — це діджитал агенція повного циклу, спрямована на найкращий результат наших клієнтів в маркетингу, продажах та управленні"/>
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://t-chorna.github.io/Frontend-Level-1-DI-GI/" />
+  <meta property="og:image" content="images/bg-img.jpg"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta property="og:description" content="Ми надаємо комплексний підхід до просування компанії,
+  продуктів та послуг в цифровій сфері."/>
+  <meta property="og:site_name" content="Di Gi digital agency"/>
+
+
+  <title>Di Gi digital agency</title>
+  <link rel="shortcut icon" href="images/DiGifavicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -12,6 +25,10 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/desctop.css">
+  <link rel="stylesheet" href="css/tablet.css">
+  <link rel="stylesheet" href="css/portrait.css">
+  <link rel="stylesheet" href="css/mobile.css">
 </head>
 <body style="background-color: lightgray;">
   <header id="header" >
@@ -24,13 +41,24 @@
   <section id="intro">
     <div class="intro-main-inform">
       <ul id="intro-list" class="unordered-list">
-        <li class="hidden intro-list-item"></li>
+        <li class="hidden intro-list-item">
+          <h1 class="intro-list-title">Ваша стратегія<br>успіху</h1>
+          <p class="intro-list-text">Di Gі — це діджитал агенція повного циклу, що пропонує індивідуальний підхід для досягнення ваших бізнес-цілей в цифровому просторі</p>
+          <img class="intro-list-img" src="images/grey line.svg" alt="" width="60">
+          <button class="intro-list-btn">ДЕТАЛЬНІШЕ</button>
+        </li>
         <li class="intro-list-item">
           <h1 class="intro-list-title">МИСЛИ<br>ГЛОБАЛЬНО</h1>
           <p class="intro-list-text">Di Gі — це діджитал агенція повного циклу, спрямована на найкращий результат наших клієнтів в маркетингу, продажах та управленні</p>
+          <img class="intro-list-img" src="images/grey line.svg" alt="" width="60">
           <button class="intro-list-btn">ДЕТАЛЬНІШЕ</button>
         </li>
-        <li class="hidden intro-list-item"></li>
+        <li class="hidden intro-list-item">
+          <h1 class="intro-list-title">Трансформуй<br>свій бізнес</h1>
+          <p class="intro-list-text">Di Gі — це команда професіоналів, яка допоможе вам досягти нових висот в маркетингу, управлінні та цифрових продажах</p>
+          <img class="intro-list-img" src="images/grey line.svg" alt="" width="60">
+          <button class="intro-list-btn">ДЕТАЛЬНІШЕ</button>
+        </li>
       </ul>
       <ul class="intro-pagination unordered-list">
         <li class="intro-pagination-dot intro-pagination-not-active-dot"></li>
@@ -62,55 +90,55 @@
     <div id="services-container">
       <h2 id="services-title">Сервіс</h2>
       <p id="services-dark-text">Від ідеї до незабутнього та вимірюваного результату.</p>
-      <img src="images/line blue.svg" alt=" blue line" width="100">
+      <img id="services-line" src="images/line blue.svg" alt=" blue line" width="100">
       <p id="services-light-text">Інтеграція бездоганного виробництва, передових технологій та ретельного вимірювання продуктивності</p>
     </div>
 
     <ul class="unordered-list" id="services-list">
       <li class="services-list-item services-with-border-bottom">
-        <img src="images/Strategy.svg" alt="" width="64" height="64">
+        <img class="services-images" src="images/Strategy.svg" alt="" width="64" height="64">
         <h3 class="services-list-titles">СТРАТЕГІЯ</h3>
         <p class="services-description"></p>
         <a class="services-link" href="underConstruction.html">ДЕТАЛЬНІШЕ →</a>
       </li>
       <li class="services-list-item services-with-border-bottom">
-        <img src="images/Analysis.svg" alt="" width="64" height="64">
+        <img class="services-images" src="images/Analysis.svg" alt="" width="64" height="64">
         <h3 class="services-list-titles">АНАЛІЗ</h3>
         <p class="services-description"></p>
         <a class="services-link" href="underConstruction.html">ДЕТАЛЬНІШЕ →</a>
       </li>
       <li class="services-list-item services-with-border-bottom">
-        <img src="images/SocialMedia.svg" alt="" width="64" height="64">
+        <img class="services-images" src="images/SocialMedia.svg" alt="" width="64" height="64">
         <h3 class="services-list-titles">СОЦ МЕРЕЖІ</h3>
         <p class="services-description"></p>
         <a class="services-link" href="underConstruction.html">ДЕТАЛЬНІШЕ →</a>
       </li>
       <li class="services-list-item services-with-border-bottom">
-        <img src="images/Development.svg" alt="" width="64" height="64">
+        <img class="services-images" src="images/Development.svg" alt="" width="64" height="64">
         <h3 class="services-list-titles">РОЗВИТОК</h3>
         <p class="services-description"></p>
         <a class="services-link" href="underConstruction.html">ДЕТАЛЬНІШЕ →</a>
       </li>
       <li class="services-list-item services-with-border-top">
-        <img src="images/Content.svg" alt="" width="64" height="64">
+        <img class="services-images" src="images/Content.svg" alt="" width="64" height="64">
         <h3 class="services-list-titles">КОНТЕНТ</h3>
         <p class="services-description"></p>
         <a class="services-link" href="underConstruction.html">ДЕТАЛЬНІШЕ →</a>
       </li>
       <li class="services-list-item services-with-border-top">
-        <img src="images/Design.svg" alt="" width="64" height="64">
+        <img class="services-images" src="images/Design.svg" alt="" width="64" height="64">
         <h3 class="services-list-titles">ДИЗАЙН UX</h3>
         <p class="services-description">Створимо унікальний та зручний дизайн</p>
         <a class="services-link" href="underConstruction.html">ДЕТАЛЬНІШЕ →</a>
       </li>
       <li class="services-list-item services-with-border-top">
-        <img src="images/Targeted adv.svg" alt="" width="64" height="64">
+        <img class="services-images" src="images/Targeted adv.svg" alt="" width="64" height="64">
         <h3 class="services-list-titles">ТАРГЕТОВАНА РЕКЛАМА</h3>
         <p class="services-description"></p>
         <a class="services-link" href="underConstruction.html">ДЕТАЛЬНІШЕ →</a>
       </li>
       <li class="services-list-item services-with-border-top">
-        <img src="images/product.svg" alt="" width="64" height="64">
+        <img class="services-images" src="images/product.svg" alt="" width="64" height="64">
         <h3 class="services-list-titles">ПРОДУКТ</h3>
         <p class="services-description"></p>
         <a class="services-link" href="underConstruction.html">ДЕТАЛЬНІШЕ →</a>
@@ -194,24 +222,14 @@
         <p class="news-list-item-text">3Д в брендингу</p>
       </li>
       <li class="news-list-item">
-        <img class="news-list-item-img" src="images/news-2.svg" alt="Contextual Advertising News" width="268">
-        <img class="show-info-news" src="images/info button white.svg" alt="Btn show info" width="28" height="28">
-        <p class="news-list-item-text">Контекстна реклама</p>
-      </li>
-      <li class="news-list-item">
-        <img class="news-list-item-img" src="images/news-3.svg" alt="Graphics News" width="268">
-        <img class="show-info-news" src="images/info button white.svg" alt="Btn show info" width="28" height="28">
-        <p class="news-list-item-text">Графіка</p>
-      </li>
-      <li class="news-list-item">
-        <img class="news-list-item-img" src="images/news-4.svg" alt="Corporate Culture News" width="268">
-        <img class="show-info-news" src="images/info button white.svg" alt="Btn show info" width="28" height="28">
-        <p class="news-list-item-text">Корпоративна культура</p>
-      </li>
-      <li class="news-list-item">
         <img class="news-list-item-img" src="images/news-5.svg" alt="Unique Design News" width="268">
         <img class="show-info-news" src="images/info button white.svg" alt="Btn show info" width="28" height="28">
         <p class="news-list-item-text">Унікальний дизайн</p>
+      </li>
+      <li class="news-list-item">
+        <img class="news-list-item-img" src="images/news-2.svg" alt="Contextual Advertising News" width="268">
+        <img class="show-info-news" src="images/info button white.svg" alt="Btn show info" width="28" height="28">
+        <p class="news-list-item-text">Контекстна реклама</p>
       </li>
       <li class="news-list-item">
         <img class="news-list-item-img" src="images/news-6.svg" alt="Perspective News" width="268">
@@ -219,9 +237,19 @@
         <p class="news-list-item-text">Погляд зі сторони</p>
       </li>
       <li class="news-list-item">
+        <img class="news-list-item-img" src="images/news-3.svg" alt="Graphics News" width="268">
+        <img class="show-info-news" src="images/info button white.svg" alt="Btn show info" width="28" height="28">
+        <p class="news-list-item-text">Графіка</p>
+      </li>
+      <li class="news-list-item">
         <img class="news-list-item-img" src="images/news-7.svg" alt="Social Media and Their Benefits News" width="268" >
         <img class="show-info-news" src="images/info button white.svg" alt="Btn show info" width="28" height="28">
         <p class="news-list-item-text">Соц мережі та їх користь</p>
+      </li>
+      <li class="news-list-item">
+        <img class="news-list-item-img" src="images/news-4.svg" alt="Corporate Culture News" width="268">
+        <img class="show-info-news" src="images/info button white.svg" alt="Btn show info" width="28" height="28">
+        <p class="news-list-item-text">Корпоративна культура</p>
       </li>
       <li class="news-list-item">
         <img class="news-list-item-img" src="images/news-8.svg" alt="Exclusivity News"  width="268" >
@@ -234,13 +262,23 @@
   <section id="testimonial">
     <img class="testimonial-quotes" src="images/quotes.svg" alt="quotes" width="32" height="14">
     <ul id="testimonial-list" class="unordered-list">
-      <li class="testimonial-list-item"></li>
+      <li class="testimonial-list-item">
+        <blockquote class="review">
+          "Di Gi - це команда, яка завжди на крок попереду. <br>Вони точно <span class="bold-text-review">знають, як зробити вашу компанію <br>впізнаваною </span> та успішною в цифровому світі"
+          <footer class="author-review">- Олександр Рудченко</footer>
+        </blockquote>
+      </li>
       <li class="testimonial-list-item active-review">    
         <blockquote class="review">
           "Якщо треба створити або підняти імідж компанії, <br>то <span class="bold-text-review">діджитал-маркетинг</span> є найбільш влучним"
           <footer class="author-review">- Маргарита Акулич</footer>
         </blockquote>
-      <li class="testimonial-list-item"></li>
+      <li class="testimonial-list-item">
+        <blockquote class="review">
+          "Професійний підхід і увага до деталей - ось що відрізняє Di Gi. <br>Вони не просто забезпечують роботу, а <span class="bold-text-review">створюють рішення, що працюють</span>"
+          <footer class="author-review">- Анна Коваленко</footer>
+        </blockquote>
+      </li>
     </ul>
 
     <ul class="testimonial-pagination unordered-list">
