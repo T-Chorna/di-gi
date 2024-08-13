@@ -511,7 +511,6 @@ html{
   padding: 52px 132px 80px 152px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: var(--white-background);
 }
 
@@ -528,7 +527,7 @@ html{
 }
 
 #latest-news-line{
-  margin: 20px 0 116px 0;
+  margin: 20px auto 116px auto;
 }
 
 #news-list{
