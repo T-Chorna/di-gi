@@ -100,7 +100,7 @@
   }
   
   #latest-news-line{
-    margin: 28px 0 52px 0;
+    margin: 28px auto 52px auto;
   }
   #news-list{
     max-height: 1600px; 

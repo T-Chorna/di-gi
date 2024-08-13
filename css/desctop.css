@@ -124,7 +124,7 @@
     padding: 65px 44px 80px 44px;
   }
   #latest-news-line{
-    margin: 28px 0 96px 0;
+    margin: 28px auto 96px auto;
   }
   #news-list{
     display: flex;
