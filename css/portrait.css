@@ -70,16 +70,11 @@
     flex-direction: column;
     align-items: center;
   }
-
-  .recent-work-img{
+  .img-container{
     width: 80vw;
     height: auto;
   }
-  .recent-work-mask{
-    top: 45%;
-    width: 70vw;
-    height: 80%;
-  }
+
 
   #video-block{
     padding: 40px 60px 52px 60px;
