@@ -535,6 +535,8 @@ html{
    flex-direction: column;
   flex-wrap: wrap;
   max-height: 750px; 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .news-list-item {
