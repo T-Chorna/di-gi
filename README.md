@@ -36,7 +36,7 @@ Media queries are used in the corresponding CSS files to ensure responsiveness:
 ## How to Run the Project
 
 1. Clone the repository to your computer:
-   > git clone https://github.com/T-Chorna/di-gi
+   > git clone https://github.com/T-Chorna/di-gi.git
    
 2. Open the **index.html** file in your browser.
 
